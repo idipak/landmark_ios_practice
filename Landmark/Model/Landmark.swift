@@ -7,6 +7,7 @@
 
 import Foundation
 import CoreLocation
+import SwiftUI
 
 struct Landmark: Hashable, Codable, Identifiable{
     var id: Int
@@ -24,6 +25,10 @@ struct Landmark: Hashable, Codable, Identifiable{
         case lakes = "Lakes"
         case rivers = "Rivers"
         case mountains = "Mountains"
+    }
+    
+    var featureImage: Image?{
+        isFeatured ? Image(imageName + "_feature") : nil
     }
     
     
