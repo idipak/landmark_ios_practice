@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE261BE328C614E1001E56AC /* LandmarkTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE261BE228C614E1001E56AC /* LandmarkTest.swift */; };
 		AE7754E628C1F39E00FA159F /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7754E528C1F39E00FA159F /* Profile.swift */; };
 		AE7754E928C1F50500FA159F /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7754E828C1F50500FA159F /* ProfileHost.swift */; };
 		AE7754EB28C1F62500FA159F /* ProfileSummar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7754EA28C1F62500FA159F /* ProfileSummar.swift */; };
@@ -46,6 +47,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE261BE228C614E1001E56AC /* LandmarkTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkTest.swift; sourceTree = "<group>"; };
 		AE7754E528C1F39E00FA159F /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		AE7754E828C1F50500FA159F /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		AE7754EA28C1F62500FA159F /* ProfileSummar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummar.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 		AEC6C67E28C09EE600236696 = {
 			isa = PBXGroup;
 			children = (
+				AE261BE228C614E1001E56AC /* LandmarkTest.swift */,
 				AEC6C68928C09EE600236696 /* Landmark */,
 				AEC6C68828C09EE600236696 /* Products */,
 			);
@@ -327,6 +330,7 @@
 				AEC6C6A828C0B14700236696 /* LandmarkList.swift in Sources */,
 				AE8289B928C1D4BB00D2A150 /* Hike.swift in Sources */,
 				AE80669A28C34CBD006AAA6C /* PageView.swift in Sources */,
+				AE261BE328C614E1001E56AC /* LandmarkTest.swift in Sources */,
 				AE8289B328C1CF5B00D2A150 /* RotatedBadgeSymbol.swift in Sources */,
 				AE7754EF28C20FD200FA159F /* ProfileEditor.swift in Sources */,
 				AEC6C6B428C0DAD200236696 /* BadgeSymbol.swift in Sources */,
